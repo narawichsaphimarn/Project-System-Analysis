@@ -1,0 +1,26 @@
+<div class="header">
+  <h1>ระบบศูนย์ดูแลผู้สูงอายุ</h1>
+  <h2>Login</h2>
+</div>
+<body>
+  <div class="column" style="background-color:lightyellow;">
+    <hr>
+
+    <div class = "panel1">
+      <h2>Login</h2>
+      <form>
+          <mat-form-field class="example-full-width1">
+            <input matInput placeholder="User name" name = "loginUserName" [(ngModel)]  = "select.inputUserName">
+          </mat-form-field>
+      </form>
+
+      <mat-form-field class="example-full-width1">
+        <input matInput placeholder="Password" type = "password" name = "loginPassword" [(ngModel)]  = "select.inputPassword">
+      </mat-form-field>
+      <p></p>
+      <button mat-button class = "color1" (click) = "login()"><b>Login</b></button>
+    </div>
+    <p></p>
+  <hr>
+</div> 
+</body>

@@ -1,0 +1,130 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
+
+* {box-sizing: border-box}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  height: 100%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 0;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid red;
+  margin-bottom: 25px;
+}
+
+.example-form1 {
+  /* min-width: 150px;
+  max-width: 500px; */
+  width: 100%;
+  float: left;
+  margin-left: 0%;
+}
+
+.example-full-width1 {
+  width:15%;
+}
+
+.example-full-width2 {
+  width: 25%;
+  margin-left: 5%;
+}
+
+.example-full-width3 {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.planel1{
+  width: 100%;
+  float: left;
+  text-align: left;
+  height: 80px;
+}
+
+.color1{
+  background-color: green;
+  color:wheat;
+  margin-left: 2%;
+}
+
+.panelInformation1{
+  width: 100%;
+  float: left;
+  text-align: left;
+  height: 415px;
+}
+
+.panelInformation2{
+  width: 50%;
+  float: left;
+  text-align: left;
+  height: 415px;
+}
+
+.panelInformation3{
+  width: 49.75%;
+  float: left;
+  text-align: left;
+  height: 415px;
+}
+
+
+.example-full-width4{
+  margin-left: 5%;
+  width: 50%;
+}
+
+.example-full-width5{
+  margin-left: 5%;
+  width: 90%;
+}
+
+.panel3{
+  width: 2px;
+  border-radius: 2px;
+  float: left;
+  text-align: left;
+  background-color: black;
+  height: 395px;
+}
+
+.example-full-width6{
+  margin-left: 50%;
+  width: 45%;
+  margin-top: 4.3%;
+}
+
+.example-full-width7{
+  margin-left: 5%;
+  width: 85%;
+  /* margin-top: 4%; */
+}
+
+.signout {
+  background-color:lightyellow;
+  border: 2px;
+  text-align: center;
+  color: wheat;
+}
+
+.color2{
+  background-color: red;
+}
+
+table {
+  width: 100%;
+}

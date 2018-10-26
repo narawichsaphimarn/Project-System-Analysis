@@ -150,4 +150,8 @@ public class RelatedInformationEntity {
     public void setProvinceEntity(ProvinceEntity provinceEntity) {
         this.provinceEntity = provinceEntity;
     }
+
+	public Object map(Object object) {
+		return null;
+	}
 }

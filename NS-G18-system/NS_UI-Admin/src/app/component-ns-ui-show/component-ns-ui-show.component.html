@@ -91,7 +91,7 @@
       </ng-container>
   
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="selectRow(row)"></tr>
   </table>
   
 
@@ -99,7 +99,119 @@
   <hr>
   <div class="container signout">
     <button [routerLink]="[ '/Login']" mat-button class = "color2"><b>Sign out</b></button>
-</div>
+  </div>
+  <p></p>
+  <hr>
+  <p></p>
+  <div class = "panel3" style = "background-color:lightyellow">
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Updaye data
+          </mat-panel-title>
+          <mat-panel-description>
+            for update your data 
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+
+        <!-- <div class = "panel1"> -->
+          <!-- <form class="example-form1"> -->
+          <div>
+            <mat-form-field class="example-full-width1">
+              <mat-select placeholder="Agency Type" name = "agencyType" [(ngModel)]="view.agent" [(value)] = "select.agencyName" >
+                <mat-option>None</mat-option>
+                <mat-option *ngFor="let agent of AgencyType" [value]="agent.agencyName">
+                  {{agent.agencyName}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width_panel2_1">
+                <input matInput placeholder="Working time" name = "RITime" [(ngModel)]="view.Workingtime" [(value)] = "select.relatedinformationTime">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width_panel2_2">
+                <input matInput placeholder="Working day" name = "RIDate" [(ngModel)]="view.Workingday" [(value)] = "select.relatedinformationDay">
+            </mat-form-field>
+          </div>
+          <!-- </form> -->
+      
+          <!-- <form class="example-form1"> -->
+          <div>
+            <mat-form-field class="example-full-width1">
+              <input matInput placeholder="Name of organization" name = "RIName" [(ngModel)]="view.Nameoforganization" [(value)] = "select.relatedinformationName" [value]="view.Nameoforganization" >
+            </mat-form-field>
+
+              <mat-form-field class="example-full-width_panel2_3">
+                  <input matInput placeholder="Address agency" name = "RIAddress" [(ngModel)]="view.Addressagency" [(value)] = "select.relatedinformationAddress">
+              </mat-form-field>
+          </div>
+          <!-- </form> -->
+
+          <!-- <form class="example-form1"> -->
+            <div>
+            <mat-form-field class="example-full-width1">
+              <mat-select placeholder="Country" name = "countryName" [(ngModel)]="view.country" [(value)] = "select.countryName">
+                <mat-option>None</mat-option>
+                <mat-option *ngFor="let country of Country" [value]="country.countryName">
+                  {{country.countryName}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width2">
+                <mat-select placeholder="Contact time" name = "contactTimeName" [(ngModel)]="view.Contacttime" [(value)] = "select.contactTimeName">
+                  <mat-option>None</mat-option>
+                  <mat-option *ngFor="let contacttime of ContactTime" [value]="contacttime.contactTimeName">
+                    {{contacttime.contactTimeName}}</mat-option>
+                </mat-select>
+              </mat-form-field>
+
+            </div>
+          <!-- </form> -->
+
+          <!-- <form class="example-form1"> -->
+            <div>
+              <mat-form-field class="example-full-width1">
+                <mat-select placeholder="Province" name = "provinceName" [(ngModel)]="view.provin" [(value)] = "select.provinceName">
+                  <mat-option>None</mat-option>
+                  <mat-option *ngFor="let province of Province" [value]="province.provinceName">
+                    {{province.provinceName}}</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <!-- </form> -->
+  <!-- </div> -->
+            
+          <label for="phone_number" class = "exp1">Phone number</label>
+                <mat-form-field class="example-full-width10">
+                  <input matInput placeholder="Input data phone number" name = "RIPhone" [(ngModel)]="view.Inputdataphonenumber" [(value)] = "select.relatedinformationPhone">
+                </mat-form-field><p></p>
+
+          <label for="Facebook" class = "exp1">Facebook</label>   
+                <mat-form-field class="example-full-width11">
+                  <input matInput placeholder="Input data facebook" name = "RIFacebook" [(ngModel)]="view.Inputdatafacebook" [(value)] = "select.relatedinformationFacebook">
+                </mat-form-field><p></p>
+
+          <label for="Line" class = "exp1">Line</label>
+                <mat-form-field class="example-full-width12">
+                  <input matInput placeholder="Input data line" name = "RILine" [(ngModel)]="view.Inputdataline" [(value)] = "select.relatedinformationLine">
+                </mat-form-field><p></p>
+
+          <label for="E-mail" class = "exp1">E-mail</label>
+                <mat-form-field class="example-full-width13">
+                  <input matInput placeholder="Input data e-mail" name = "RIEmail" [(ngModel)]="view.Inputdatae_mail" [(value)] = "select.relatedinformationEmail">
+                </mat-form-field>
+
+        <div class="container signout">
+          <button  mat-button class = "color2" (click) = "updateType()"><b>Update</b></button>
+        </div>
+           
+
+      </mat-expansion-panel>
+      <p></p>
+      <hr>
+    </mat-accordion>
+  </div>
 </div>
 </body>
 

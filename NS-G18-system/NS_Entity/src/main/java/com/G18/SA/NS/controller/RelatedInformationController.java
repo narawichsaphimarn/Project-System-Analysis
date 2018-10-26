@@ -1,14 +1,23 @@
 package com.G18.SA.NS.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-// import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import java.util.Collection;
-// import java.util.Date;
-// import java.util.Optional;
 import java.util.stream.Collectors;
 import com.G18.SA.NS.entity.*;
 import com.G18.SA.NS.repository.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import java.io.IOException;
+import java.net.URLDecoder;
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RestController @CrossOrigin(origins = "http://localhost:4200")
 public class RelatedInformationController {
@@ -69,4 +78,31 @@ public class RelatedInformationController {
 
         return relatedInformationRepository.save(r);
     }
+
+     @PutMapping("/updateRelatedInformation/{relatedinformationID}/{relatedinformationName}/{relatedinformationDay}/{relatedinformationTime}/{relatedinformationAddress}/{relatedinformationPhone}/{relatedinformationEmail}/{relatedinformationFacebook}/{relatedinformationLine}/{agencyName}/{contactTimeName}/{countryName}/{provinceName}")
+     public RelatedInformationEntity editRelatedInformation(@RequestBody RelatedInformationEntity relatedInformation,@PathVariable Long relatedinformationID,@PathVariable String relatedinformationName, @PathVariable String relatedinformationDay, @PathVariable String relatedinformationTime, @PathVariable String relatedinformationAddress, @PathVariable String relatedinformationPhone, @PathVariable String relatedinformationEmail,@PathVariable String relatedinformationFacebook,@PathVariable String relatedinformationLine,@PathVariable String agencyName,@PathVariable String contactTimeName, @PathVariable String countryName,@PathVariable String provinceName){
+         AgencyTypeEntity a = agencyTypeRepository.findByagencyName(agencyName);
+         ContactTimeEntity ct = contactTimeRepository.findBycontactTimeName(contactTimeName);
+         CountryEntity c = countryRepository.findBycountryName(countryName);
+         ProvinceEntity p = provinceRepository.findByprovinceName(provinceName);
+         return relatedInformationRepository.findById(relatedinformationID).map(roomedit ->{
+                     roomedit.setRelatedinformationID(relatedinformationID);
+                     roomedit.setRelatedinformationName(relatedinformationName);
+                     roomedit.setRelatedinformationAddress(relatedinformationAddress);
+                     roomedit.setRelatedinformationTime(relatedinformationTime);
+                     roomedit.setRelatedinformationDay(relatedinformationDay);
+                     roomedit.setRelatedinformationPhone(relatedinformationPhone);
+                     roomedit.setRelatedinformationEmail(relatedinformationEmail);
+                     roomedit.setRelatedinformationFacebook(relatedinformationFacebook);
+                     roomedit.setRelatedinformationLine(relatedinformationLine);
+                     roomedit.setAgencyTypeEntity(a);
+                     roomedit.setContactTimeEntity(ct);
+                     roomedit.setCountryEntity(c);
+                     roomedit.setProvinceEntity(p);
+                     return relatedInformationRepository.save(roomedit);
+                 }
+                 ).orElseGet(() ->{
+                     return relatedInformationRepository.save(relatedInformation);
+         });
+     }
 }

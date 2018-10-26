@@ -128,3 +128,52 @@ hr {
 table {
   width: 100%;
 }
+
+.panel3{
+  width: 100%;
+  float: left;
+  text-align: left;
+  height: 200%;
+}
+
+.example-full-width1 {
+  width: 45%;
+}
+
+.example-full-width_panel2_1{
+  margin-left: 5%;
+  width: 20%;
+}
+
+.example-full-width_panel2_2{
+  margin-left: 5%;
+  width: 20%;
+}
+
+.example-full-width_panel2_3{
+  margin-left: 5%;
+  width: 45%;
+}
+
+.example-full-width2 {
+  margin-left: 5%;
+  width: 45%;
+}
+
+.example-full-width10{
+  margin-left: 5%;
+  width: 45%;
+}
+
+.example-full-width11{
+  margin-left: 7.5%;
+  width: 45%;
+}
+.example-full-width12{
+  margin-left: 10%;
+  width: 45%;
+}
+.example-full-width13{
+  margin-left: 8.8%;
+  width: 45%;
+}

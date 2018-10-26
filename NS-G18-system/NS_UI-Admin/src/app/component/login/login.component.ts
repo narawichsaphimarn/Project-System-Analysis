@@ -32,14 +32,15 @@ constructor(private route: ActivatedRoute,private relatedInformationService: Rel
           data =>{
             console.log(data);
             if(data){
-              if(this.select.inputUserName[0] == 'N')
-                this.router.navigate(['/ComponentNs']);
+              // if(this.select.inputUserName[0] == 'N')
+              //   this.router.navigate(['/ComponentNs']);
 
-              else if(this.select.inputUserName[0] == 'A')
-                this.router.navigate(['/ComponentNsUiShow']);
+              // else if(this.select.inputUserName[0] == 'A')
+              //   this.router.navigate(['/ComponentNsUiShow']);
 
-              else if(this.select.inputUserName[0] == 'T')
-                this.router.navigate(['/Jobpage']);
+              // else if(this.select.inputUserName[0] == 'T')
+              //   this.router.navigate(['/Jobpage']);
+              this.router.navigate(['/Jobpage']);
             }
             else
               alert('Cannot login Please check your Username Or Password');

@@ -19,13 +19,23 @@
     
 
         <!-- <button mat-button class = "color1" [routerLink]="[ '/ComponentNs']"><b>Related Information</b></button> -->
-
-        <button mat-button [matMenuTriggerFor]="menu">ระบบจัดเก็บข้อมูลหน่วยงานที่เกี่ยวข้อง</button>
-        <mat-menu #menu="matMenu">
+        <div>
+        <button mat-button [matMenuTriggerFor]="menu1">ระบบจัดเก็บข้อมูลหน่วยงานที่เกี่ยวข้อง</button>
+        <mat-menu #menu1="matMenu">
           <button mat-menu-item [routerLink]="[ '/ComponentNs']">หน้าบันทึกข้อมูล</button>
           <button mat-menu-item [routerLink]="[ '/ComponentNsUiShow']">หน้าโชว์ข้อมูล</button>
         </mat-menu>
-         
+        </div>
+        <p></p>
+        <hr>
+        <div>
+        <button mat-button [matMenuTriggerFor]="menu2">ระบบบันทึกรายรับรายจ่าย</button>
+        <mat-menu #menu2="matMenu" >
+          <button mat-menu-item [routerLink]="[ '/account']">หน้าบันทึกรายรับ-รายจ่าย</button>
+          <button mat-menu-item [routerLink]="[ '/table']">หน้าแสดงรายรับขรายจ่าย</button>
+        </mat-menu>
+        </div>
+
       </mat-expansion-panel>
       <mat-expansion-panel (opened)="panelOpenState = true"
                            (closed)="panelOpenState = false">

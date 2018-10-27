@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+
+  </style>
+<title>Page Title</title>
+</head>
+<body>
+<div class="container">
+  <h1>ศูนย์ดูแลผู้สูงอายุ</h1>
+  <p>ระบบจัดเก็บข้อมูลผู้สูงอายุ</p>
+</div>
+<div>
+  <div class="panelmaster">
+    <div class="panel1">
+      <form id="formtext">
+          <label for="name">ชื่อ :</label>
+          <br>
+          <br>
+          <label for="sex">เพศ :</label>
+          <br>
+          <br>
+          <label for="ddmmyyyy">วัน/เดือน/ปี :</label>
+          <br>
+          <br>
+          <label for="congenital disease">โรคประจำตัว :</label>
+      </form>
+    </div>
+    <div class="panel2">
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุชื่อ" [(ngModel)] = "select.nameEldeInput">
+      </mat-form-field>
+      <br>
+      <br>
+      <mat-form-field id = "input">
+        <mat-select placeholder="ระบุเพศ" [(ngModel)] = "select.genderSelected" name = "genderName">
+          <mat-option *ngFor="let genders of gender" [value]="genders.genderName">
+            {{genders.genderName}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="input">
+        <input matInput [min]="minDate" [max]="maxDate" [matDatepicker]="picker" placeholder="ระบุ วัน/เดือน/ปีเกิด" [(ngModel)] = "select.birthDateElderInput">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุ(ถ้ามี)" [(ngModel)] = "select.congenitalDiseaseInput">
+      </mat-form-field>
+    </div>
+    <div class="panel3">
+      <form id="formtext1">
+        <label for="lastname">นามสกุล :</label>
+        <br>
+        <br>
+        <label for="IDper">เลขประจำตัวประชาชน :</label>
+        <br>
+        <br>
+        <label for="status">สถานะภาพ :</label>
+        <br>
+        <br>
+        <label for="Be allergic">แพ้ยา :</label>
+      </form>
+    </div>
+    <div class="panel4">
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุนามสกุล" [(ngModel)] = "select.lastNameEldeInput">
+      </mat-form-field>
+      <br>
+      <br>
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุเลขบัตรประชาชน" type = "number" [(ngModel)] = "select.personalElderInput">
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input">
+        <mat-select placeholder="ระบุสถานะ"[(ngModel)] = "select.statusMaritalSelected" name = "statusMaritalName">
+          <mat-option *ngFor="let statusMaritals of statusMarital" [value]="statusMaritals.statusMaritalName">
+            {{statusMaritals.statusMaritalName}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input">
+        <mat-select placeholder="ยาที่แพ้"[(ngModel)] = "select.allergicSelected" name = "allergicName">
+          <mat-option *ngFor="let allergics of allergic" [value]="allergics.allergicName">
+            {{allergics.allergicName}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <hr>
+    <div class="panel5">
+      <form id="formtext">
+        <label for="nameญาติ">ญาติผู้ดูแล :</label>
+
+    </form>
+    </div>
+    <div class="panel6">
+      <mat-form-field id = "input">
+        <mat-select placeholder="ญาติผู้ดูแล" [(ngModel)] = "select.relativeSelected" name = "relativeName">
+          <mat-option *ngFor="let relatives of relative" [value]="relatives.relativeName">
+            {{relatives.relativeName}}      {{relatives.relativeLastName}} 
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
+      <br>
+      <br>
+
+      
+       <!-- <div class="button-row">
+        <button [routerLink]="['/relative']"mat-raised-button color="primary">ระบุญาติ</button>
+      </div> 
+       -->
+
+    </div>
+    <br>
+    <div class="button-row">
+      <button class = "bottomgreen" mat-raised-button color="primary" (click) = "add()">บันทึก</button>
+      <!-- <button class = "bottomyellow" mat-raised-button color="primary">แก้ไข</button> -->
+    </div>
+
+     <!-- table -->
+     <br>
+     <div class="example-container mat-elevation-z8">
+      <table mat-table [dataSource]="dataSource">
+    
+        <!-- Position Column -->
+        <ng-container matColumnDef="position">
+          <th mat-header-cell *matHeaderCellDef> No. </th>
+          <td mat-cell *matCellDef="let element"> {{element.elder.elderId}} </td>
+        </ng-container>
+    
+        <!-- Name Column -->
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef> ชื่อ</th>
+          <td mat-cell *matCellDef="let element"> {{element.elder.elderName}}</td>
+        </ng-container>
+    
+        <!-- lastName Column -->
+        <ng-container matColumnDef="lastname">
+          <th mat-header-cell *matHeaderCellDef> นามสกุล </th>
+          <td mat-cell *matCellDef="let element"> {{element.elder.elderLastName}} </td>
+        </ng-container>
+
+        <!-- personalId Column -->
+        <ng-container matColumnDef="personalId">
+          <th mat-header-cell *matHeaderCellDef>เลขบัตรประจำตัวประชาชน</th>
+          <td mat-cell *matCellDef="let element"> {{element.elder.elderPersonalId}} </td>
+        </ng-container>
+    
+        <!-- congenitalDisease Column -->
+        <ng-container matColumnDef="congenitalDisease">
+          <th mat-header-cell *matHeaderCellDef>โรคประจำตัว</th>
+          <td mat-cell *matCellDef="let element"> {{element.elder.congenitalDisease}} </td>
+        </ng-container>
+    
+        <!-- relative Column -->
+        <ng-container matColumnDef="relative">
+          <th mat-header-cell *matHeaderCellDef>ญาติผู้ดูแล</th>
+          <td mat-cell *matCellDef="let element"> {{element.relative.relativeName}} {{element.relative.relativeLastName}} </td>
+        </ng-container>
+    
+        <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+     <!-- table -->
+  
+  
+  
+    
+
+  </div>
+ 
+
+</div>
+
+</body>
+</html>

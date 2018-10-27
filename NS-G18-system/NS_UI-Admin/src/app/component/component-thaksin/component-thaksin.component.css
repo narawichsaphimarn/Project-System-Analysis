@@ -1,0 +1,107 @@
+.container{
+    padding: 1px;
+    background-color: #1abc9c;
+    text-align: center;
+
+  }
+  hr {
+    border: 1px solid red;
+    margin-bottom: 0px;
+  }
+     .panelmaster{
+      position: absolute;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 10%;
+      margin-top: 20px;
+      height: 750px;
+      background-color:#FEE2F1;
+    }
+    .panel1{
+      width: 18%;
+      height: 275px;
+      float: left;
+      text-align: right;
+      background-color: #FEE2F1;
+    }
+    .panel2{
+      width: 25%;
+      height: 275px;
+      float: left;
+      text-align: left;
+      background-color: #FEE2F1;
+    }
+    .panel3{
+      width: 27%;
+      height: 275px;
+      float: left;
+      background-color: #FEE2F1;
+    }
+    .panel4{
+      width: 30%;
+      height: 275px;
+      float: left;
+      background-color:#FEE2F1;
+    }
+    .panel5{
+      width: 18%;
+      height: 75px;
+      float: left;
+      text-align: right;
+      background-color:#FEE2F1;
+    }
+    .panel6{
+      width: 30%;
+      height: 75px;
+      float: left;
+      background-color:#FEE2F1;
+    }
+    #formtext{
+      margin-right: 6px;
+      margin:20px 20px 20px 20% ;
+      font-size: 20px;
+    }
+    #formtext1{
+      margin-right: 6px;
+      margin:20px 20px 20px 20% ;
+      font-size: 20px;
+      text-align: right;
+    }
+
+    #input{
+            margin-top: 5px;
+            width: 250px;
+            height: 35px;
+            margin-right: 50px;
+            float: left;
+            margin-bottom: 20px;
+          }
+          .button-row button,
+          .button-row a {
+            margin-right: 100px;
+            margin-left: 75px
+          }
+
+      .btn {
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+    .bottomgreen{
+      background-color:Green;
+    }
+    .bottomyellow{
+      background-color:Gold;
+    }
+    .example-container {
+      height: 400px;
+      overflow: auto;
+    }
+    table {
+      width: 100%;
+    }
+    
+

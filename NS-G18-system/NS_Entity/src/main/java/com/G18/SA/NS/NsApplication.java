@@ -17,7 +17,7 @@ public class NsApplication {
 	}
 
 	@Bean
-	ApplicationRunner init(AgencyTypeRepository AgencyTypeRepository, CountryRepository CountryRepository, ProvinceRepository ProvinceRepository, RelatedInformationRepository RelatedInformationRepository, ContactTimeRepository ContactTimeRepository,LoginRepository loginRepository){
+	ApplicationRunner init(AgencyTypeRepository AgencyTypeRepository, CountryRepository CountryRepository, ProvinceRepository ProvinceRepository, RelatedInformationRepository RelatedInformationRepository, ContactTimeRepository ContactTimeRepository,LoginRepository loginRepository,AccountRecordRepository accountrecordrepository, DepartmentsRepository departmentsrepository,GiveToRepository givetorepository, IncomeExpensesRepository incomeexpensesrepository){
 		return args -> {
 
 			Stream.of("กรุงเทพมหานคร", "กระบี่", "กาญจนบุรี", "กาฬสินธุ์", "กำแพงเพชร", "ขอนแก่น", "จันทบุรี", "ฉะเชิงเทรา", "ชลบุรี", "ชัยนาท"
@@ -66,6 +66,23 @@ public class NsApplication {
 			mem3.setLoginName("A5909711");
 			mem3.setLoginPassword(12345L);
 			loginRepository.save(mem3);
+
+			Stream.of("รายรับ","รายจ่าย").forEach(incomes -> {
+                IncomeExpenses income = new IncomeExpenses();
+                income.setIncomeExpenses(incomes);
+                incomeexpensesrepository.save(income);
+            });
+
+			Stream.of("พยาบาล","ดูแลผู้ป่วย","โรงครัว","พัสดุ/เครื่องมือ","กิจกรรม").forEach(Departmentss -> {
+				Departments departs = new Departments();
+				departs.setNamedepartment(Departmentss);
+				departmentsrepository.save(departs);
+			});
+			Stream.of("ภายใน","ภายนอก").forEach(givetos -> {
+				GiveTo giveto = new GiveTo();
+				giveto.setGiveTo(givetos);
+				givetorepository.save(giveto);
+			});
 		};
 	}
 }

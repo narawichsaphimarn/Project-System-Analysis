@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+ 
+  </style>
+<title>Page Title</title>
+</head>
+<body>
+<div class="container"> 
+  <h1>ศูนย์ดูแลผู้สูงอายุ</h1>
+  <p>ข้อมูลญาติผู้สูงอายุ</p>
+</div>
+<div>
+  <div class="panelmaster">
+    <div class="panel1">
+      <form id="formtext">
+          <label for="name">ชื่อ :</label>
+          <br>
+          <br>
+          <label for="realative">เกี่ยวข้องเป็น :</label>
+          <br>
+          <br>
+          <label for="address">ที่อยู่ :</label>
+          <br>
+          <br>
+          <label for="sub-des">ตำบล :</label>
+          <br>
+          <br>
+          <label for="pro">จังหวัด :</label>
+
+      </form>
+    </div>
+    <div class="panel2">
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุชื่อ" value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input">
+        <mat-select placeholder="เกี่ยวข้องเป็น">
+          <mat-option *ngFor="let relstatus of relstatuss" [value]="relstatus.value">
+            {{relstatus.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุบ้านเลขที่ หมู่ที่" value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุตำบล" value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input" >
+        <mat-select placeholder="ระบุ จังหวัด">
+          <mat-option *ngFor="let province of provinces" [value]="province">{{province}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="button-row">
+        <button class = "bottomgreen" [routerLink]="['/componentThaksin']" mat-raised-button color="primary">บันทึก</button>
+      </div>
+    </div>
+    <div class="panel3">
+      <form id="formtext1">
+        <label for="lastname">นามสกุล :</label>
+        <br>
+        <br>
+        <label for="IDper">เลขประจำตัวประชาชน :</label>
+        <br>
+        <br>
+        <label for="soi">ถนน/ซอย :</label>
+        <br>
+        <br>
+        <label for="dis">อำเภอ :</label>
+        <br>
+        <br>
+        <label for="mail">รหัสไปรษณีย์ :</label>
+        <br>
+
+
+      </form>
+      <br>
+      <br>
+      <br>
+
+      <div class="button-row">
+        <button class = "bottomyellow" mat-raised-button color="primary">แก้ไข</button>
+      </div>
+    </div>
+    <div class="panel4">
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุ นามสกุล" value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุ เลขบัติประชาชน" value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุ ถนน/ซอย" value="">
+      </mat-form-field>
+      <br>
+
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบ ุอำเภอ" value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field id = "input" >
+        <input matInput placeholder="ระบุ รหัสไปรษณีย์" value="">
+      </mat-form-field>
+
+      <br>
+    </div>
+    
+    
+    
+    
+    
+      
+
+
+
+
+    
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    
+    .container{
+    padding: 1px;
+    background-color: aquamarine;
+    text-align: center;
+    }
+    
+    #formtext{
+      margin-right: 6px;
+      margin:20px 20px 20px 20% ;
+      font-size: 20px;
+      
+    }
+    #formtext2{
+      margin-right: 6px;
+      margin:20px 20px 20px 20px ;
+      font-size: 20px;
+      
+    }
+  
+    .btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    margin-left: 70%
+}
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  </style>
+
+<title>Page Title</title>
+</head>
+<body>
+<div class="container"> <!--หัวข้อ-->
+  <h1>ศูนย์ดูแลผู้สูงอายุ</h1>
+  <p>ระบบจัดเก็บตารางกิจกรรม</p>
+</div>
+<div>
+
+    <div class="topnav">
+        <a > </a><!-- ใส้หน้าหลักMenu-->
+        <a  class="active" [routerLink] ="['/work']">กิจกรรม</a>
+        <a [routerLink] ="['/activities']">เพิ่มกิจกรรม</a>
+      </div>
+
+  
+      
+
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                <!--- Note that these columns can be defined in any order.
+                      The actual rendered columns are set as a property on the row definition" -->
+              
+                <!-- activity Column -->
+                <ng-container matColumnDef="activity">
+                  <th mat-header-cell *matHeaderCellDef> กิจกรรม </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.activitys}} </td>
+                </ng-container>
+              
+                <!-- kind Column -->
+                <ng-container matColumnDef="kind">
+                  <th mat-header-cell *matHeaderCellDef> ประเภทกิจกรรม </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.kinds.kindss}} </td>
+                </ng-container>
+              
+                <!-- sex Column -->
+                <ng-container matColumnDef="sex">
+                  <th mat-header-cell *matHeaderCellDef> เพศ </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.sexs.sexss}} </td>
+                </ng-container>
+              
+                <!-- day Column -->
+                <ng-container matColumnDef="day">
+                  <th mat-header-cell *matHeaderCellDef> วันที่ </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.days}} </td>
+                </ng-container>
+                <!-- room Column -->
+                <ng-container matColumnDef="room">
+                  <th mat-header-cell *matHeaderCellDef> ห้อง </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.rooms.rooss}} </td>
+                </ng-container>
+                <!-- num Column -->
+                <ng-container matColumnDef="num">
+                  <th mat-header-cell *matHeaderCellDef> จำนวน </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.nums}} </td>
+                </ng-container>
+                <!-- time Column -->
+                <ng-container matColumnDef="time">
+                  <th mat-header-cell *matHeaderCellDef> เวลา </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.times.timess}} </td>
+                </ng-container>
+                <!-- age Column -->
+                <ng-container matColumnDef="age">
+                  <th mat-header-cell *matHeaderCellDef> ช่วงอายุ </th>
+                  <td mat-cell *matCellDef="let activityTable"> {{work.ages.agess}} </td>
+                </ng-container>
+                
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              </table>
+              
+    
+    
+  
+</div>
+</body>
+</html>
+
+
+
+

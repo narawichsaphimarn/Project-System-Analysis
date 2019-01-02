@@ -1,0 +1,28 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+  }
+  
+  * {box-sizing: border-box}
+  
+  .column {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    height: 100%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 0;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid red;
+    margin-bottom: 25px;
+  }
+

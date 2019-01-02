@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd8fa8b1-1434-40d8-aa3e-203daa332896" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/RelatedInformationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/service/relatedInformation-service/related-information.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component-ns-ui-show/component-ns-ui-show.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component-ns-ui-show/component-ns-ui-show.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2771">
+              <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/NsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="50" column="92" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/repository/LoginRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Login.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/service/register/show.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/repository/RelatedInformationRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Controller</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ActivitiesControllerAll</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/service/account.service.ts" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/component/table/table.component.ts" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/component/jobpage/jobpage.component.html" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/index.html" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/component/account/account.component.ts" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/component/account/account.component.html" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/AccountRecordController.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/ActivitiesControllerAll.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/NsApplication.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Titlename.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Nationality.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Ethnicity.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Religion.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Position.java" />
+        <option value="$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Profile.java" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/service/relatedInformation-service/related-information.service.ts" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/component/component-ns/component-ns.component.ts" />
+        <option value="$PROJECT_DIR$/NS_UI-Admin/src/app/component-ns-ui-show/component-ns-ui-show.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="G18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="G18" type="462c0819:PsiDirectoryNode" />
+              <item name="SA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="G18" type="462c0819:PsiDirectoryNode" />
+              <item name="SA" type="462c0819:PsiDirectoryNode" />
+              <item name="NS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="G18" type="462c0819:PsiDirectoryNode" />
+              <item name="SA" type="462c0819:PsiDirectoryNode" />
+              <item name="NS" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="G18" type="462c0819:PsiDirectoryNode" />
+              <item name="SA" type="462c0819:PsiDirectoryNode" />
+              <item name="NS" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="G18" type="462c0819:PsiDirectoryNode" />
+              <item name="SA" type="462c0819:PsiDirectoryNode" />
+              <item name="NS" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NS-G18-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NS-G18-system" type="462c0819:PsiDirectoryNode" />
+              <item name="NS_Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545842827620" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/cygwin64/home/NS-M/Project_SE/team21/backend" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Users\NS-M\Desktop\SA_G_18_FIX\NS-G18-system\NS_UI-Admin\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Draft\Desktop\NS-G18-system\NS_Entity\src\main\java\com\G18\SA\NS\repository" />
+      <recent name="C:\Users\Draft\Desktop\NS-G18-system\NS_Entity\src\main\java\com\G18\SA\NS\entity" />
+      <recent name="C:\Users\Draft\Desktop\NS-G18-system\NS_Entity\src\main\java\com\G18\SA\NS\controller" />
+      <recent name="C:\Users\Draft\Desktop\NS-G18-system\NS_UI-Admin\src\app\service" />
+      <recent name="C:\Users\Draft\Desktop\NS-G18-system\NS_UI-Admin\src\app\component" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd8fa8b1-1434-40d8-aa3e-203daa332896" name="Default Changelist" comment="" />
+      <created>1540306398078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540306398078</updated>
+      <workItem from="1540587694208" duration="1334000" />
+      <workItem from="1540590298100" duration="2285000" />
+      <workItem from="1540600181580" duration="549000" />
+      <workItem from="1545408447952" duration="3893000" />
+      <workItem from="1545458537451" duration="2584000" />
+      <workItem from="1545551152042" duration="3349000" />
+      <workItem from="1545573792020" duration="2339000" />
+      <workItem from="1545578325187" duration="3172000" />
+      <workItem from="1545656967264" duration="1533000" />
+      <workItem from="1545724493538" duration="1660000" />
+      <workItem from="1545803866377" duration="3222000" />
+      <workItem from="1545823361534" duration="932000" />
+      <workItem from="1545832502146" duration="4613000" />
+      <workItem from="1545884614638" duration="1340000" />
+      <workItem from="1545998606597" duration="773000" />
+      <workItem from="1546156272708" duration="239000" />
+      <workItem from="1546161652286" duration="4577000" />
+      <workItem from="1546316843676" duration="929000" />
+      <workItem from="1546349925202" duration="631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39954000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40015128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19354838" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/AgencyTypeController.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/account/account.component.ts</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/repository/ContactTimeRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Relative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1012" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/service/activityservice.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/account/account.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/service/account.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/account/account.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/account/account.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/jobpage/jobpage.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/jobpage/jobpage.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/account/account.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/component-ns/component-ns.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component-ns-ui-show/component-ns-ui-show.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/component-thaksin/component-thaksin.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/AccountRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/component-thaksin/component-thaksin.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/component-thaksin/component-thaksin.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/component-ns/component-ns.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="2" selection-end-line="54" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component/component-ns/component-ns.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/RelatedInformationEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/service/activityservice.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/AccountRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/ActivitiesControllerAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2869">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/AgencyTypeController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/AllergicController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/AllergicElderManyToManyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/ContactTimeController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/CountryController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/DepartmentsController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/ElderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/GenderController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/RelativeController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/RelativeElderToManyController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/StatusMaritalController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/GivetoController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/IncomeExpensesController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/ProvinceController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/RelatedInformationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/service/relatedInformation-service/related-information.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component-ns-ui-show/component-ns-ui-show.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/component-ns-ui-show/component-ns-ui-show.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/repository/LoginRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/entity/Login.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_UI-Admin/src/app/service/register/show.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/repository/RelatedInformationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NS_Entity/src/main/java/com/G18/SA/NS/NsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="50" column="92" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

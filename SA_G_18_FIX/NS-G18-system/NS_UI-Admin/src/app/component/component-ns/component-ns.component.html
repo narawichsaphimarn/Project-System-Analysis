@@ -1,0 +1,115 @@
+<div class="header">
+  <h1>ระบบศูนย์ดูแลผู้สูงอายุ</h1>
+  <p>ระบบจัดเก็บข้อมูลหน่วยงานที่เกี่ยวข้อง</p>
+</div>
+
+<body>
+  <div class="column" style="background-color:lightyellow;">
+    <hr>
+      <form action="action_page.php">
+        <div class="container">
+          <h1>Information</h1>
+          <p>Please fill in this form.</p>
+          <hr>
+            <div class = "panel1">
+              <form class="example-form1">
+                <mat-form-field class="example-full-width1">
+                  <mat-select placeholder="Agency Type" name = "agencyType" [(ngModel)]="view.agent">
+                    <mat-option>None</mat-option>
+                    <mat-option *ngFor="let agent of AgencyType" [value]="agent.agencyName">
+                      {{agent.agencyName}}</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </form>
+          
+              <form class="example-form1">
+                <mat-form-field class="example-full-width1">
+                  <input matInput placeholder="Name of organization" name = "RIName" [(ngModel)]="view.Nameoforganization">
+                </mat-form-field>
+              </form>
+
+              <form class="example-form1">
+                <mat-form-field class="example-full-width1">
+                  <mat-select placeholder="Country" name = "countryName" [(ngModel)]="view.country">
+                    <mat-option>None</mat-option>
+                    <mat-option *ngFor="let country of Country" [value]="country.countryName">
+                      {{country.countryName}}</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </form>
+
+              <form class="example-form1">
+                  <mat-form-field class="example-full-width1">
+                    <mat-select placeholder="Province" name = "provinceName" [(ngModel)]="view.provin">
+                      <mat-option>None</mat-option>
+                      <mat-option *ngFor="let province of Province" [value]="province.provinceName">
+                        {{province.provinceName}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                </form>
+      </div>
+      
+      <div class = "panel2">
+          <form class="example-form1">
+              <mat-form-field class="example-full-width_panel2_1"> <!-- จงใจให้เป็นสตริง เนื่องจาก ไม่อาจทราบได้แน่ชัดว่าเวลาที่ทางหน่วยงานนั้นทำ เป็นช่วงเวลาเท่าใด จริงไม่สามารถใส่มาเป็นช่วงเวลาได้ -->
+                <input matInput placeholder="Working time" name = "RITime" [(ngModel)]="view.Workingtime">
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width_panel2_2"> <!-- จงใจทำไม่ให้เป็นสตริง เนื่องจาก ไม่อาจทราบได้แน่ชัดว่าวันที่ทางหน่วยงานนั้นทำ เป็นช่วงวันใดบ้าง จริงไม่สามารถใส่มาเป็นช่วงวันได้ -->
+                  <input matInput placeholder="Working day"  name = "RIDate" [(ngModel)]="view.Workingday">
+              </mat-form-field>
+          </form>
+
+          <form class="example-form1">
+              <mat-form-field class="example-full-width1">
+                <textarea matInput placeholder="Address agency" rows="5" name = "RIAddress" [(ngModel)]="view.Addressagency"></textarea>
+              </mat-form-field>
+          </form>
+           
+            <form class="example-form1"> 
+              <mat-form-field class="example-full-width1">
+                <mat-select placeholder="Contact time" name = "contactTimeName" [(ngModel)]="view.Contacttime">
+                  <mat-option>None</mat-option>
+                  <mat-option *ngFor="let contacttime of ContactTime" [value]="contacttime.contactTimeName">
+                    {{contacttime.contactTimeName}}</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </form>
+      </div>
+        <hr>
+
+        <h1>Contact</h1><p></p>
+
+          <label for="phone_number" class = "exp1">Phone number</label> <!-- จงใจทำไม่ให้เป็นสตริง เนื่องจาก การป้อนเบอร์โทรศัพท์อาจมีขีดในข้อมูล โดยเฉพาะเบอร์โทรต่างประเทศ ซึ่งยาวกว่าไทย อาจมีขีดแบ่งช่วงเพื่อง่ายต่อความเข้าใจของผู้ค้นหา -->
+                <mat-form-field class="example-full-width2">
+                  <input matInput placeholder="Input data phone number" name = "RIPhone" [(ngModel)]="view.Inputdataphonenumber">
+                </mat-form-field><p></p>
+
+          <label for="Facebook" class = "exp1">Facebook</label>   
+                <mat-form-field class="example-full-width3">
+                  <input matInput placeholder="Input data facebook" name = "RIFacebook" [(ngModel)]="view.Inputdatafacebook">
+                </mat-form-field><p></p>
+
+          <label for="Line" class = "exp1">Line</label>
+                <mat-form-field class="example-full-width4">
+                  <input matInput placeholder="Input data line" name = "RILine" [(ngModel)]="view.Inputdataline">
+                </mat-form-field><p></p>
+
+          <label for="E-mail" class = "exp1">E-mail</label>
+                <mat-form-field class="example-full-width5">
+                  <input matInput placeholder="Input data e-mail" name = "RIEmail" [(ngModel)]="view.Inputdatae_mail">
+                </mat-form-field><p></p>
+          <p></p>
+          <hr>
+
+      <div class="next2">
+          <button mat-button class = "color1" (click)="Save()"><b>Save</b></button>
+      </div>
+    </div>
+  
+    <div class="container signout">
+        <button [routerLink]="[ '/Login']" mat-button class = "color2"><b>Sign out</b></button>
+    </div>
+  </form>
+</div> 
+</body>

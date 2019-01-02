@@ -1,0 +1,84 @@
+<div class="header">
+  <h1>ระบบศูนย์ดูแลผู้สูงอายุ</h1>
+  <p>ระบบบันทึกรายรับ-รายจ่าย</p>
+</div>
+
+<body>
+<div class="column" style="background-color:lightyellow;">
+  <hr>
+  <form action="action_page.php">
+    <div class="container">
+      <h1>บันทึกรายรับ-รายจ่าย</h1>
+        <p>โปรดกรอกข้อมูล</p>
+        <hr>
+        <div class = "panel1">
+          <label  class = "exp1">วันที่ :</label>
+
+          <mat-form-field class="input">
+            <input matInput [matDatepicker]="picker" placeholder="วัน/เดือน/ปี" name = "inputTime" [(ngModel)]="views.inputTime">    <!-- วันเดือนปี-->
+           <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field><p></p>
+
+
+
+        <label class = "exp1"> รายการ        :</label>
+        <mat-form-field class="example-full-width2">
+          <input matInput placeholder="รายการ..." name = "title" [(ngModel)]="views.title" >
+        </mat-form-field><p></p>
+
+        <label  class = "exp1">ประเภท        :</label>
+          <mat-form-field class="example-full-width2">
+            <mat-select placeholder="รายรับรายจ่าย" name = "inout" [(ngModel)]="views.inoutSelect">
+              <mat-option *ngFor="let  watchs of recordINOUT" [value]=" watchs.incomeExpenses">
+                {{watchs.incomeExpenses}}</mat-option>
+            </mat-select>
+          </mat-form-field><p></p>
+
+
+        <label  class = "exp1">จัดสรรให้ :</label>
+          <mat-form-field class="example-full-width2">
+          <mat-select placeholder="แผนก/ฝ่าย"  name = "depart" [(ngModel)]="views.departSelect" >
+             <mat-option *ngFor="let watchs of recordDepart" [value]="watchs.namedepartment">
+              {{watchs.namedepartment}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field><p></p>
+
+        <label  class = "exp1">รูปแบบงบ:</label>
+        <mat-form-field class="example-full-width2">
+          <mat-select placeholder="ภายใน/ภายนอก"  name = "type" [(ngModel)]="views.TypeSelect" >
+              <mat-option *ngFor="let watchs of recordType" [value]="watchs.giveTo">
+              {{watchs.giveTo}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field><p></p>
+
+        <label  class = "exp1">จำนวนเงิน      :</label>
+        <mat-form-field class="example-full-width2">
+          <input matInput placeholder="จำนวนเงิน"  name = "amount" [(ngModel)]="views.amount" >
+        </mat-form-field><p></p>
+
+      </div>
+
+      <div class = "panel2">
+        <div class="save">
+          <button mat-button class = "color" (click)="Save()" ><b>บันทึก</b></button>
+        </div>
+      </div><p></p>
+
+      <div class = "panel2">
+        <div class="next2">
+          <button mat-button class = "color" [routerLink]="['/table']" ><b>แสดงข้อมูล</b></button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container signout">
+      <button mat-button class = "color" [routerLink]="[ '/Login']"><b>Sign out</b></button>
+    </div>
+
+  </form>
+</div>
+</body>

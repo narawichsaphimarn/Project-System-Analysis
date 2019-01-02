@@ -1,0 +1,67 @@
+<div class="header">
+  <h1>ระบบศูนย์ดูแลผู้สูงอายุ</h1>
+</div>
+
+<body>
+  <div class="column" style="background-color:lightyellow;">
+    <hr>
+
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Job page
+          </mat-panel-title>
+          <mat-panel-description>
+            choose the type you job work
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+    
+
+        <!-- <button mat-button class = "color1" [routerLink]="[ '/ComponentNs']"><b>Related Information</b></button> -->
+        <div>
+        <button mat-button [matMenuTriggerFor]="menu1">ระบบจัดเก็บข้อมูลหน่วยงานที่เกี่ยวข้อง</button>
+        <mat-menu #menu1="matMenu">
+          <button mat-menu-item [routerLink]="[ '/ComponentNs']">หน้าบันทึกข้อมูล</button>
+          <button mat-menu-item [routerLink]="[ '/ComponentNsUiShow']">หน้าโชว์ข้อมูล</button>
+        </mat-menu>
+        </div>
+        <p></p>
+        <hr>
+        <div>
+        <button mat-button [matMenuTriggerFor]="menu2">ระบบบันทึกรายรับรายจ่าย</button>
+        <mat-menu #menu2="matMenu" >
+          <button mat-menu-item [routerLink]="[ '/account']">หน้าบันทึกรายรับ-รายจ่าย</button>
+          <button mat-menu-item [routerLink]="[ '/table']">หน้าแสดงรายรับขรายจ่าย</button>
+        </mat-menu>
+        </div>
+        <p></p>
+        <hr>
+        <div>
+          <button mat-button [routerLink]="[ '/componentThaksin']">ระบบจัดเก็บข้อมูลผู้สูงอายุ</button>
+        </div>
+        <p></p>
+        <hr>
+        <div>
+          <button mat-button [routerLink]="[ '/activities']">ระบบจัดตารางกิจกรรม</button>
+        </div>
+        <p></p>
+        <hr>
+        <div>
+        <button mat-button [matMenuTriggerFor]="menu3">ระบบจัดเก็บข้อมูลบุคลากรและเจ้าหน้าที่ศูนย์ดูแลผู้สูงอายุ</button>
+        <mat-menu #menu3="matMenu" >
+          <button mat-menu-item [routerLink]="[ '/register']">หน้าบันทึกข้อมูลบุคลากรและเจ้าหน้าที่ศูนย์ดูแลผู้สูงอายุ</button>
+          <button mat-menu-item [routerLink]="[ '/show']">หน้าแสดงข้อมูลบุคลากรและเจ้าหน้าที่ศูนย์ดูแลผู้สูงอายุ</button>
+        </mat-menu>
+        </div>
+        <p></p>
+        <hr>
+
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+      </mat-expansion-panel>
+    </mat-accordion>
+
+  </div> 
+</body>
